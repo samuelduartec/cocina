@@ -1,0 +1,57 @@
+.header {
+    height: 60px ;
+    width: 100%;
+    background-color: #8B1414;
+    display: flex;
+    justify-content: space-between;
+    
+      .izquierda{
+        
+        display: flex;
+        color: aliceblue;
+        align-items: center;
+        margin-left: 8px;
+        }  
+    
+      .derecha{
+        margin-right: 5%;
+        display: flex;
+        align-items: center;
+        color: aliceblue;
+        .navItem{
+            margin: auto 12px;
+        }
+        }
+    }
+
+
+        .portada{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            min-height: 80vh;
+            background-position: center;
+            background-size: cover;
+            padding:1rem;
+            .title {
+                color: rgb(59, 59, 59);
+                font-size: 2rem;
+                font-weight: bold;
+            }
+             .button{ 
+                text-align: center;
+                width: 20%;
+                height: 10%;
+                background-color: #8B1414;
+                color: aliceblue;
+                margin: 12px;
+                padding: 12px;
+
+            }
+
+
+        }
+
+    

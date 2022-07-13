@@ -1,0 +1,32 @@
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.redes {
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+    .facebook,.instagram,.whatsapp {
+        
+        background-size: cover;
+        width: 50px;
+        height:50px;
+        border-radius: 50%;
+      
+ }    
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top:50px ;
+    width:100%; 
+    height:315px;
+}
