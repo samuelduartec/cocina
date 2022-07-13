@@ -7,28 +7,28 @@ const Centro = () => {
             <div className={styles.centroTitle}>Intro</div>
             <div className={styles.centroGrid}>
                 <div className={styles.cuadro}>
-                    <div className={styles.bolita}></div>
+                    <div className={styles.bolita1}></div>
                     <div className={styles.letas}>
                         <div className={styles.subtitulo}>Las más deliciosas recetas</div>
                         <div className={styles.parrafo}>Tenemos un amplio menu suculento con los platos mas deliciosos</div>
                     </div>
                 </div> 
                 <div className={styles.cuadro}>
-                    <div className={styles.bolita}></div>
+                    <div className={styles.bolita2}></div>
                     <div className={styles.letas}>
                         <div className={styles.subtitulo}>Las más deliciosas recetas</div>
                         <div className={styles.parrafo}>Tenemos un amplio menu suculento con los platos mas deliciosos</div>
                     </div>
                 </div> 
                 <div className={styles.cuadro}>
-                    <div className={styles.bolita}></div>
+                    <div className={styles.bolita3}></div>
                     <div className={styles.letas}>
                         <div className={styles.subtitulo}>Las más deliciosas recetas</div>
                         <div className={styles.parrafo}>Tenemos un amplio menu suculento con los platos mas deliciosos</div>
                 </div>
                 </div> 
                 <div className={styles.cuadro}>
-                    <div className={styles.bolita}></div>
+                    <div className={styles.bolita4}></div>
                     <div className={styles.letas}>
                         <div className={styles.subtitulo}>Las más deliciosas recetas</div>
                         <div className={styles.parrafo}>Tenemos un amplio menu suculento con los platos mas deliciosos</div>
