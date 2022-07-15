@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/components/Superior.module.scss"
+import Link from 'next/link'
 const Superior = () => {
     return (
         <>
@@ -14,7 +15,11 @@ const Superior = () => {
         
         <div className={styles.portada} style={{backgroundImage:'url(cocina.jpg)'}}>
             <div className={styles.title}>Bienvenido a la cocina de Hakiri</div>  
-            <div className={styles.button}>Ver recetas</div>
+            <div className={styles.button} >
+                <Link href={"/receta"}>
+                    <a>Ver recetas</a>
+                </Link>
+            </div>
         </div>
         
     

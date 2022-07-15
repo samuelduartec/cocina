@@ -8,6 +8,7 @@ import Inferior from '../components/Inferior'
 
 
 
+
 export default function Home() {
 return (
   <>
