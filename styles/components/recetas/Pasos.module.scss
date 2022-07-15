@@ -1,0 +1,27 @@
+.pasos{
+    margin: 6px;
+    font-size: 50px;
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: #FAA5A5;
+
+    
+    .uno,.dos,.tres,.cuatro,.cinco,.seis,.siete {
+        display: grid;
+        grid-template-columns: .5fr 3fr;
+
+        
+        .numero{
+            font-size: 40px;
+            text-align: center;
+            color: yellow;
+            
+            
+        }
+        
+        .subtitulo{
+            font-size: 20px;
+        }
+    }
+        
+}

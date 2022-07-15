@@ -5,6 +5,11 @@
     background-color: #8B1414;
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width:800px) {
+        height: 70px;
+        
+               
+    }
     
       .izquierda{
         
@@ -12,6 +17,10 @@
         color: aliceblue;
         align-items: center;
         margin-left: 8px;
+     
+
+            
+        }
         }  
     
       .derecha{
@@ -19,11 +28,16 @@
         display: flex;
         align-items: center;
         color: aliceblue;
+        @media screen and (max-width:800px) {
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            text-decoration: underline white;
+            }
         .navItem{
             margin: auto 12px;
         }
         }
-    }
+    
 
 
         .portada{
@@ -36,10 +50,20 @@
             background-position: center;
             background-size: cover;
             padding:1rem;
+
+            @media screen and (max-width:800px){
+            display: flex;
+            justify-content: space-around;    
+                
+            }
             .title {
                 color: rgb(59, 59, 59);
                 font-size: 2rem;
                 font-weight: bold;
+                @media screen and (max-width:800px){
+                    text-align: center;
+                    
+                }
             }
              .button{ 
                 font-weight: bold;
@@ -50,8 +74,8 @@
                 color: aliceblue;
                 margin: 12px;
                 padding: 12px;
-
-            }
+               
+                }
 
 
         }

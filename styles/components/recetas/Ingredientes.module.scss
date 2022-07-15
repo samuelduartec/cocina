@@ -1,0 +1,28 @@
+.texto{
+    background-color: #d9d9d9;
+    margin-bottom: auto;
+    padding: 60px;
+}
+
+.ingrediente{
+    margin-bottom:.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #d9d9d9;
+    border-bottom: 1px solid ;
+    margin-bottom: auto;
+    @media screen and (max-width:800px) {
+        width: auto;
+    }
+    
+    
+   
+    .cantidad{
+        margin-left: 8px;
+       
+    }
+    .precio{
+        margin-left:8px;
+        
+    }
+}

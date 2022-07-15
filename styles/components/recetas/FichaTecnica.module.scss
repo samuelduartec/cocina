@@ -1,0 +1,49 @@
+.ficha {
+background-color: #1D5271;
+padding: 10px;
+    .titulo{
+        font-size: 30px;
+        color: white; 
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 2fr 1fr 4fr;
+        .datos,.porcentajes{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .datos{
+         
+            .calorias,.proteinas,.carbohidratos{
+                padding: 10px;
+                width: 100%;
+                background-color:#D9D9D9;
+                margin: 5px;
+                }
+            }
+            
+        .porcentajes{
+            color: #D9D9D9;
+            align-items: center;
+            .veinte,.veinticinco,.diez{
+                margin: 5px ; 
+                padding: 10px; 
+             }
+            }
+                    
+        .ciudades{
+            margin: 0;
+            width:100%;
+            height: auto;
+            background-color: red;
+            color: white;
+            display: flex;
+            align-items: center;
+            }
+        }
+        
+    }
+    
+
+    
